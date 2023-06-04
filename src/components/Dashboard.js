@@ -54,6 +54,7 @@ function Dashboard() {
                             data.map((e,i)=>{
                                return <Card key={i}
                                 input={e}
+                                value={10}
                                  />
                                 
                             })
